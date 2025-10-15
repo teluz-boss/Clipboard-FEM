@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.8;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+header {
+  text-align: center;
+  padding-top: 35px;
+  background: url("./images/bg-header-desktop.png") no-repeat center center /
+    cover;
+
+  margin-bottom: 88px;
+}
+
+.logo {
+  display: inline-block;
+  margin: 40px 0;
+}
+
+.primary-heading {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: hsl(210, 10%, 33%);
+}
+
+.secondary-heading {
+  font-size: 28px;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 16px;
+}
+
+.tertiary-heading {
+  color: hsl(210, 10%, 33%);
+  font-size: 22px;
+}
+
+.lead {
+  margin-bottom: 32px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 28px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 100px;
+  transition: all 0.3s ease-in;
+}
+
+.btn-primary {
+  background-color: hsl(171, 66%, 44%);
+  margin-right: 10px;
+  box-shadow: 0 8px 15px rgba(38, 186, 164, 0.5);
+}
+
+.btn-secondary {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0 6px 12px rgba(97, 115, 255, 0.5);
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section {
+  padding: 80px 0;
+}
+/* 
+.textt {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+} */
+
+.section-track {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.track-img {
+  transform: translateX(-45px);
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  /* justify-content: space-around; */
+}
+
+.box {
+  width: 450px;
+}
+
+.textt:nth-child(2) {
+  margin-bottom: 92px;
+}
+
+.item {
+  display: flex;
+  gap: 18px;
+}
+
+.items img {
+  display: inline-block;
+  margin-bottom: 26px;
+}
+
+.items p {
+  padding-top: 10px;
+}
+
+.logo-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-footer {
+  background-color: #eee;
+}
+
+.main-footer .container {
+  display: flex;
+  align-items: flex-start;
+  gap: 64px;
+  padding: 32px;
+}
+
+.footer-logo {
+  height: 100px;
+}
+
+.footers a {
+  display: block;
+  color: hsl(210, 10%, 33%);
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+}
+
+.footers a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.socials {
+  margin-left: auto;
+  display: flex;
+  gap: 18px;
+  align-self: center;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+  fill: hsl(171, 66%, 44%);
+}
+
+.text-ce .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Mobile view */
+@media (max-width: 450px) {
+  header {
+    background: url("./images/bg-header-mobile.png") no-repeat center center /
+      cover;
+  }
+
+  .container {
+    padding: 0 32px;
+  }
+
+  .primary-heading {
+    font-size: 32px;
+    line-height: 1.4;
+  }
+
+  .secondary-heading {
+    font-size: 28px;
+  }
+
+  .tertiary-heading {
+    font-size: 22px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .btn-primary {
+    margin-bottom: 18px;
+  }
+
+  .section-track {
+    /* padding: 0 32px; */
+    display: block;
+    text-align: center;
+  }
+
+  .track-img {
+    width: 80%;
+    transform: translateX(0);
+  }
+
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    /* justify-content: space-around; */
+    margin-top: 24px;
+  }
+
+  .box {
+    width: 300px;
+  }
+
+  .second-img {
+    width: 80%;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .items img {
+    margin-bottom: 2px;
+  }
+
+  .items p {
+    margin-bottom: 28px;
+  }
+
+  .logo-item {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+  }
+
+  .main-footer .container {
+    display: block;
+    padding: 32px;
+    margin-top: 32px;
+    text-align: center;
+  }
+
+  .footer-logo {
+    margin-bottom: 32px;
+  }
+
+  .footers a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+  }
+
+  .socials {
+    text-align: center;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+  }
+}
