@@ -167,9 +167,13 @@ header {
   align-self: center;
 }
 
+.social-icon {
+  transition: all 0.4s ease-in;
+}
+
 .social-icon:hover {
   cursor: pointer;
-  fill: hsl(171, 66%, 44%);
+  filter: brightness(0.6) sepia(5) hue-rotate(180deg) saturate(8);
 }
 
 .text-ce .attribution {
