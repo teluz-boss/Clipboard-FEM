@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://clipboard-fem-sigma.vercel.app/)
 
 ## My process
 
@@ -68,4 +68,4 @@ const proudOfThisFunc = () => {
 
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@teluz-boss](https://www.frontendmentor.io/profile/teluz-boss)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@y](https://www.twitter.com/yourusername)
